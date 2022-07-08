@@ -44,3 +44,10 @@ Long short-term memory (LSTM) is an artificial recurrent neural network (RNN) ar
 
 # Prediction:
 <img src="jupyter.png"/>
+
+## Published Research Report
+International Journal for Modern Trends in Science and Technology, 8(01): 259-264, 2022
+Copyright © 2022 International Journal for Modern Trends in Science and Technology 
+ISSN: 2455-3778 online
+DOI: https://doi.org/10.46501/IJMTST0801045
+Available online at: http://www.ijmtst.com/vol8issue01.html
