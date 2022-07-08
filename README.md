@@ -1,5 +1,6 @@
 # LSTM-Stock-prediction
 <img src="Stock.png"/>
+https://effervescent-lily-da0a99.netlify.app/
 
 # What we've created :
 ### A Machine Learning Model. which will help to predict future price of stocks, with the help of predefined neural network algorithms.
