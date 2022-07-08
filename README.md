@@ -27,3 +27,18 @@ A recurrent neural network (RNN) is a special type of an artificial neural netwo
 
 ## Long Short Term Memory (LSTM)
 Long short-term memory (LSTM) is an artificial recurrent neural network (RNN) architecture used in the field of deep learning. LSTM networks are well-suited to classifying, processing and making predictions based on time series data, since there can be lags of unknown duration between important events in a time series.
+
+
+# Proposed Steps:
+1. 1. As a first step, we are importing the data from yahoo finance website and defining the start and the end point of dataset that we are going to use in our machine learning model.
+2. After importing we will reset the index and dropping the columns from dataset, which are not useful for our model analysis. And selecting the CLOSE price column on that we are going to train our machine learning model.
+3. DATA SPLITTING - Now coming to the important part of any machine learning model which Data Splitting. We have split the data into Training and Testing part that we usually do for predictions. So we have split a data in such a manner that Training part is 70% of the data and the rest 30% is for Testing part.
+4. DATA SCALING - For this we are importing MinMax Scaler from Sklearn data preprocessing. And defining the features from 0 to 1. That means all the values from the closing price column will scaled down between 0 to 1. That’s the way we provide data to our LSTM model.
+5. In next step we have to split our data into x train and y train , So that’s why we have use a Time Series Analogy That value for a particular day or we can say the closing price of a particular day will be dependent on a previous days values. In this model we have defined steps as 100, that means the value for the 101th day will be dependent on a previous 100 days. That’s why this previous 100 days values become my x train and the 101th day value will be my y train.
+6. Then we have to convert our x train and y train into a numpy arrays.
+7. Then we have defined a simple LSTM model, So in this model we Defined 4 layers in LSTM model and at last a Dense layer which connects the all layers together.
+8. Now heading towards to finalize our machine learning model , we compiled the model with ADAM Optimizer (Zhang, 2018)and kept the losses as Mean Squared error. Which is used in Time Series Analysis. At last compiled our model for 50 epochs.
+
+
+# Prediction:
+<img src="#"/>
