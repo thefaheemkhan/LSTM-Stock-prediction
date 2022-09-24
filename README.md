@@ -51,3 +51,4 @@ Copyright © 2022 International Journal for Modern Trends in Science and Technol
 ISSN: 2455-3778 online
 DOI: https://doi.org/10.46501/IJMTST0801045
 Available online at: http://www.ijmtst.com/vol8issue01.html
+Direct Paper link : http://www.ijmtst.com/volume8/issue01/45.IJMTST0801096.pdf
