@@ -1,4 +1,4 @@
-# LSTM-Stock-prediction
+# LSTM-Stock-prediction WebApp
 <img src="Stock.png"/>
 https://effervescent-lily-da0a99.netlify.app/
 
